@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reveal-website</title>
+    <!-- bootstrap links start here -->
+    <link rel="stylesheet" href="./boostrap links/css/bootstrap.min.css">
+    <!-- bootstrap links end here -->
+
+    <!-- own css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- own css link -->
+
+</head>
+<body>
+    <header>
+        <!-- navbar section start here -->
+        <nav class="navbar navbar-expand-lg bg-white shadow border-bottom fixed-top">
+            <div class="container">
+              <a class="navbar-brand fs-1 text-capitalize fw-bold" href="#">reve<span class="text-primary opacity-75">al</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#">about</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      service
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary">login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- navbar section end here -->
+
+
+          <!-- carousel section start here -->
+          <section class="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner position-relative">
+                    <div class="position-absolute text-dark z-3 top-50 start-50 translate-middle text-center">
+                        <h1 class="display-3 fw-bold">Making <span class="text-primary text-decoration-underline">your ideas</span> happen!</h1>
+                        <p>The most informative blockchain news source. Publishing multiple articles and videos daily.</p>
+                        <button class="btn bg-black bg-opacity-75 text-white py-2 mx-2 text-capitalize">get started</button>
+                        <button class="btn btn-primary text-white py-2 mx-2 text-capitalize mt-3 mt-sm-0">our projects</button>
+                    </div>
+                  <div class="carousel-item active reveal-img">
+                    <img src="./images/carousel/1.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item reveal-img">
+                    <img src="./images/carousel/2.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item reveal-img">
+                    <img src="./images/carousel/3.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item reveal-img">
+                    <img src="./images/carousel/4.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item reveal-img">
+                    <img src="./images/carousel/5.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="own-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="£120E0E" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5ZM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5Z"/>
+                      </svg>
+                  </span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="own-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="£120E0E" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>
+                      </svg>
+                  </span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
+          <!-- carousel section end here -->
+    </header>    
+
+
+    <main>
+        <!-- who section start here -->
+        <section class="who container my-5 py-5 gx-5">
+            <div class="row d-flex flex-column-reverse gy-4 flex-md-row">
+                <div class="col-12 col-md-6">
+                    <img src="./images/who/about-img.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h1 class="text-capitalize fw-bold">who we are</h1>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <ul>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- who section end here -->
+
+
+        <!-- services section start here -->
+        <section class="services container my-5 py-5 px-4 px-md-0">
+            <h1 class="text-capitalize fw-bold">Services</h1>
+            <p>Retaining customer base is important for any enterprise, it takes great effort to make good customer relationship and minute error can ruin it. Owing to our outstanding customer service we have maintained the 85 % customer retention rate. We, the best IT service provider company in Noida help your business in getting loyalty back by transforming into latest advanced IT technology.</p>
+            <div class="row my-5">
+                <div class="col-12 col-md-6 shadow-lg p-4">
+                    <h2 class="text-center text-capitalize text-primary">digital transforming</h2>
+                    <div class="d-flex align-items-center">
+                       <div class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="green" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                        <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+                      </svg></div>
+                        <p class="ms-4">Transforming business models of the organization is an important aspect of digital transformation, it comprises transforming the business functions, activities, processes, models, assets, and activities.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 shadow-lg p-4">
+                  <h2 class="text-center text-capitalize text-primary">UI/UX Design</h2>
+                  <div class="d-flex align-items-center">
+                     <div class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="green" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                      <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                      <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+                    </svg></div>
+                      <p class="ms-4">Transforming business models of the organization is an important aspect of digital transformation, it comprises transforming the business functions, activities, processes, models, assets, and activities.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 shadow-lg p-4">
+                <h2 class="text-center text-capitalize text-primary">IT Infrastructure</h2>
+                <div class="d-flex align-items-center">
+                   <div class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="green" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                    <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+                  </svg></div>
+                    <p class="ms-4">Transforming business models of the organization is an important aspect of digital transformation, it comprises transforming the business functions, activities, processes, models, assets, and activities.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 shadow-lg p-4">
+              <h2 class="text-center text-capitalize text-primary">Business Analysis</h2>
+              <div class="d-flex align-items-center">
+                 <div class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="green" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                  <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+                </svg></div>
+                  <p class="ms-4">Transforming business models of the organization is an important aspect of digital transformation, it comprises transforming the business functions, activities, processes, models, assets, and activities.</p>
+              </div>
+          </div>
+            </div>
+        </section>
+        <!-- services section end here -->
+
+
+
+
+        <!-- client section start here -->
+        <section class="client container my-5 py-2 px-4 px-md-0">
+          <h1 class="text-capitalize fw-bold">client</h1>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <div class="row">
+            <div class="col-6 col-md-2 my-3">
+              <img src="./images/client/client-1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 my-3">
+              <img src="./images/client/client-2.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 my-3">
+              <img src="./images/client/client-3.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 my-3">
+              <img src="./images/client/client-4.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 my-3">
+              <img src="./images/client/client-5.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 my-3">
+              <img src="./images/client/client-6.png" alt="" class="img-fluid">
+            </div>
+
+          </div>
+        </section>
+        <!-- client section end here -->
+
+
+        <!-- call section start here -->
+        <section class="call-section container-fluid my-5 py-5 px-4 px-md-0 bg-dark text-white">
+          <div class="container">
+            <h2 class="text-capitalize fw-bold">call to action</h2>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="btn text-white border-white btn-outline-secondary py-2">call to action</button>
+        </section>
+        <!-- call section end here -->
+
+
+
+        <!-- team section start here -->
+        <section class="team container ms-3 ms-md-auto px-md-0">
+          <h1 class="text-capitalize fw-bold">our team</h1>
+          <p>Sit sint consectetur velit quos quisquam cupiditate nemo qui</p>
+          <div class="row container">
+            <div class="col-12 col-md-3 border rounded border-secondary d-flex flex-column justify-content-center align-items-center my-3">
+                <img src="./images/team/team-1.jpg" alt="" class="img-fluid rounded-circle border border-secondary w-50 p-2 my-4">
+                <h3 class="text-primary text-capitalize">walter white</h3>
+                <p class="fst-italic mb-4">chief excutive oggicer</p>
+                <p class="mb-4 text-center">qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+              </div>
+              <div class="col-12 col-md-3 border rounded border-secondary d-flex flex-column justify-content-center align-items-center my-3">
+                <img src="./images/team/team-2.jpg" alt="" class="img-fluid rounded-circle border border-secondary w-50 p-2 my-4">
+                <h3 class="text-primary text-capitalize">walter white</h3>
+                <p class="fst-italic mb-4">chief excutive oggicer</p>
+                <p class="mb-4 text-center">qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+              </div>
+              <div class="col-12 col-md-3 border rounded border-secondary d-flex flex-column justify-content-center align-items-center my-3">
+                <img src="./images/team/team-2.jpg" alt="" class="img-fluid rounded-circle border border-secondary w-50 p-2 my-4">
+                <h3 class="text-primary text-capitalize">walter white</h3>
+                <p class="fst-italic mb-4">chief excutive oggicer</p>
+                <p class="mb-4 text-center">qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+              </div>
+              <div class="col-12 col-md-3 border rounded border-secondary d-flex flex-column justify-content-center align-items-center my-3">
+                <img src="./images/team/team-4.jpg" alt="" class="img-fluid rounded-circle border border-secondary w-50 p-2 my-4">
+                <h3 class="text-primary text-capitalize">walter white</h3>
+                <p class="fst-italic mb-4">chief excutive oggicer</p>
+                <p class="mb-4 text-center">qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+              </div>
+            </div>
+        </section>
+        <!-- team section end here -->
+
+
+
+        <!-- contact section start here -->
+        <section class="contact container my-5 py-2  px-md-0">
+          <h1 class="text-capitalize fw-bold">contact us</h1>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <div class="row my-5 d-flex flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-4">
+              <div class="line d-flex align-items-center">
+                <div class="icon me-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg>
+                </div>
+                <div class="content">
+                  <h4 class="text-primary">phone number</h4>
+                  <p>+7377363 344</p>
+                </div>
+              </div>
+              <div class="line d-flex align-items-center my-2">
+                <div class="icon me-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg>
+                </div>
+                <div class="content">
+                  <h4 class="text-primary">email</h4>
+                  <p>info@reveal.com</p>
+                </div>
+              </div>
+              <div class="line d-flex align-items-center">
+                <div class="icon me-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                  </svg>
+                </div>
+                <div class="content">
+                  <h4 class="text-primary">address</h4>
+                  <p>A108 Adam Street, New York</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-8 mb-4">
+              <div class="row gy-4">
+                <div class="col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="your name" aria-label="First name">
+                </div>
+                <div class="col-12 col-md-6">
+                  <input type="email" class="form-control" placeholder="your email" aria-label="Last name">
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Subject" aria-label="First name">
+                </div>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2" class="ps-3">Comments</label>
+                </div>
+                <div class="col1">
+                  <button class="btn btn-primary">send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact section end here -->
+    
+    </main>
+
+
+
+    <!-- footer section start here -->
+    <footer class="container-fluid bg-primary text-white p-5">
+      <div class="content container">
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <h1 class="fw-bold display-4 text-capitalize">reveal</h1>
+            <p>A108 Adam Street, New York, NY 535022, United States</p>
+            <p>Phone: +098988998 98</p>
+            <p>Email: info@reveal.com</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h4>useful links</h4>
+            <p>home</p>
+            <p>about</p>
+            <p>contact us</p>
+            <p>login</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h4>our services</h4>
+            <p>IT services</p>
+            <p>UX/UI design</p>
+            <p>Web development</p>
+            <p>App Development</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <div class="position-relative">
+              <input type="text" name="" id="" placeholder="Enter your email" class="p-2 w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end here -->
+
+
+    <script src="./boostrap links/js/bootstrap.min.js"></script>
+</body>
+</html>
